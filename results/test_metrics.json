@@ -1,0 +1,18 @@
+{
+  "train": {
+    "roc_auc": 0.9997,
+    "accuracy": 0.9862,
+    "n_rows": 4263
+  },
+  "test": {
+    "roc_auc": 0.8242,
+    "accuracy": 0.7542,
+    "n_rows": 1066
+  },
+  "params": {
+    "n_estimators": 300,
+    "max_depth": 20,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt"
+  }
+}
