@@ -177,4 +177,3 @@ It sends 8 random wines from the test set and prints the predicted probability n
 - The labels come from human tasters and are subjective; the model is a pre-screening aid, not a replacement.
 - Only Vinho Verde wines from Portugal are in the data; the model should not be used for other wines.
 - Accuracy is about 75%, so a wrong call is common; probabilities should be read as a ranking of batches, not as a verdict.
-- Not done: cloud deployment, probability calibration, a custom decision threshold depending on the cost of missing a bad batch.
